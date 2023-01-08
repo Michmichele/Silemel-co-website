@@ -1,0 +1,136 @@
+/*Barre de navigation*/
+  img{
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  nav{
+    overflow: hidden;
+    background-color: white;
+  }
+
+  nav a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    display: block;
+    color: #2e8791;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  input{
+    border-color: #2e8791;
+    border-radius: 25px;
+    }
+    
+  .droite{
+    float: right;
+  }
+    
+  select{
+    border-color: #2e8791;
+    border-radius: 25px;
+  }
+
+  .lien:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+/*body des acceuil*/
+.accueil{
+  background-color:#2e8791;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+}
+
+.accueil p{
+ text-align: justify;
+}
+
+.presentation{
+  color: white;
+  padding: 10px;
+}
+
+.offres{
+  padding: 10px;
+  color: white;
+}
+.offres h1{
+  text-align: right;
+}
+
+.offres a{
+  color: white;
+  float: right;
+}
+
+.agences{
+  color: white;
+  padding: 10px;
+}
+
+.agences h1{
+  text-align: left;
+}
+
+.agences a{
+  color: white;
+  float: left;
+
+}
+
+/*body de private user et entreprise*/
+.contenu{
+  background-color:#2e8791;
+  padding: 20px;
+  height: auto;
+  color: white;
+  margin: auto;
+}
+.contenu h1{
+  font-size: 30px;
+}
+.contenu h2{
+  font-size: 20px;
+}
+.contenu a{
+  border-radius: 25px;
+}
+.sous-contenu{
+  margin: 10px;
+}
+
+.contenu input{
+  border-color: #2e8791;
+  border-radius: 25px;
+  width: 250px;
+}
+
+.contenu button{
+  width: 125px;
+  border-radius: 25px;
+}
+
+/* Mise en page du footer*/
+footer{
+  background-color: white;
+  padding: 20px;
+}
+
+footer a{
+  color: #2e8791;
+}
+.fa{
+  color: #2e8791;
+}
+

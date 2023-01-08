@@ -1,0 +1,37 @@
+/*Partie du CSS pour les pages d'inscription et de connection*/
+.liste-ajout{
+  background-color:#2e8791;
+  color: black;
+  padding: 20px;
+  height: auto;
+}
+
+.form_offre{
+  margin: auto;
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, .9);
+  padding: 3rem;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .9);
+  border-top: 1px solid rgba(255, 255, 255, .9);
+  box-sizing: border-box;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  display: block;
+  text-align: center;
+}
+
+.ajoutOffre textarea{
+  padding: 0.5em 0.5em;
+  width: 400px;
+  height: auto;
+  text-align: justify;
+  outline: none;
+  resize: none;
+  border-radius: 25px ;
+}
+
+.ajoutOffre a{
+  width: 250px;
+  border-radius: 25px;
+}

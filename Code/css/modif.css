@@ -1,0 +1,71 @@
+.bouton-sup-modif{
+  float: right;
+}
+
+  /* Button used to open the form */
+.open-button {
+  background-color: #20b2c3;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 150px;
+  border-color: #20b2c3;
+  border-bottom: #20b2c3;
+  border-left: #20b2c3;
+  border-right: #20b2c3;
+  color: white;
+  align-items: flex-end;
+}
+  
+/* The popup form - hidden by default */
+.modif-popup {
+  color: black;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  padding-top: 30px;
+}
+  
+.form-row{
+  align-items: center;
+  text-align: left;
+  align-content: center;
+  text-align: justify;
+}
+  
+  /* Add styles to the form container */
+.modif-container {
+  margin: auto;
+  width: 900px;
+  height: 600px;
+  background: rgba(255, 255, 255, .9);
+  padding: 3rem;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .9);
+  border-top: 1px solid rgba(255, 255, 255, .9);
+  box-sizing: border-box;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+}
+  
+.ajoutOffre button{
+  border-color: #2e8791;
+  border-radius: 25px;
+  width: 250px;
+}
+  
+.ajoutOffre textarea{
+  padding: 0.5em 0.5em;
+  width: 400px;
+  height: auto;
+  text-align: justify;
+  outline: none;
+  resize: none;
+  border-radius: 25px ;
+}
+

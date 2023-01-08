@@ -1,0 +1,59 @@
+/*Partie du CSS pour les pages d'inscription et de connection*/
+body{
+    background: linear-gradient(150deg, #f9f9f9, #2e8791);
+    height: 100vh;
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2e8791;
+}
+
+body a{
+  color: rgb(7, 7, 56);
+}
+
+/*inscription*/
+.creation-compte{
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 500px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  box-sizing: border-box;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+}
+
+.creation-compte input{
+  border-color: #2e8791;
+  border-radius: 25px;
+  width: 250px;
+}
+
+.btn{
+  width: 125px;
+  border-radius: 25px;
+}
+
+/*connexion*/
+.login-page {
+  background: rgba(255, 255, 255, .3);
+  padding: 3rem;
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, .3);
+  border-top: 1px solid rgba(255, 255, 255, .3);
+  box-sizing: border-box;
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+  text-align: center;
+}
+
+.login-page input{
+  border-color: #2e8791;
+  border-radius: 25px;
+  width: 250px;
+}
+
+
